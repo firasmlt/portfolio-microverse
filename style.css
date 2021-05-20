@@ -4,3 +4,39 @@
     box-sizing:border-box;
     font-family: Poppins, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    width:100%;
+}
+#welcome-section{
+    height: 100vh;
+    background-color: rgb(63, 79, 100);
+    color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#projects{
+    background-color: #754444;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project-tile{
+    width: 30%;
+    min-width: 250px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 2% 1%;
+}
+
+.project-tile  a:hover{
+    color:rgb(66, 66, 66);
+}
